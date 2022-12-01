@@ -1,0 +1,64 @@
+.ToolBar{
+    display: flex;
+    width: 100%;
+}
+
+.AlghButton{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 15px 5px 0px 5px;
+    
+    font-weight: 600;
+}
+.AlghButtonDisable{
+    display: inline-block;
+    color: #666666;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 15px 5px 0px 5px;
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+
+.AlghButton:focus{
+    display: inline-block;
+    color: rgb(15, 187, 221);
+    font-size: 16px;
+    cursor: pointer;
+    margin: 15px 5px 0px 5px;
+    
+    
+}
+
+.AlghButton:hover{
+    color: rgb(93, 140, 181);
+}
+
+.sortButton{
+    font-size: 16px;
+    
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.sortButton:disabled{
+    
+    opacity: 0.4;
+    background-color: #131334;
+    color: #666666;
+    border: none;
+}
+
+.diveder{
+
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 5px;
+    height: 55px;
+    background-color: rgba(215, 25, 25, 0.8);
+}
